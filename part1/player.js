@@ -21,12 +21,28 @@ $(document).ready(() => {
 
 function searchAndUpdate(songName) {
     getSpotifyBearerToken((token) => {
-        // TODO: make HTTP GET request to Spotify Web API to get the Spotify URI for the given song.
-        // TODO: get Spotify URI of first result in response
+        $.ajax({
+            type: "GET",
+            url: encodeURI("https://api.spotify.com/v1/search?q=" + songName + "&type=track"),
+            contentType: "application/json; charset=utf-8",
+            dataType: "json",
+            headers: {
+                "Authorization": "Bearer " + token,
+            },
+            success: function(data) {
+                let hits = data['tracks']['items'];
+                if (hits.length > 0) {
+                    updateSpotifyWidget(hits[0]["uri"]);
 
-        console.log(`IMPLEMENT ME!`);
-        console.log("Using default 'Call Me Maybe' by Carly Rae Jepsen.");
-        updateSpotifyWidget("spotify:track:38DgNqC7TQkZ3Ih5Vz6K0Q");
+                } else {
+                    console.log("Found no matching songs... falling back to Carly!");
+                    updateSpotifyWidget("spotify:track:38DgNqC7TQkZ3Ih5Vz6K0Q");
+                }
+            },
+            error: function() {
+                console.log("Search request to Spotify Web API failed!");
+            }
+        });
     });
 }
 
