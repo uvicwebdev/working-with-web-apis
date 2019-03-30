@@ -10,10 +10,10 @@ body {
         color: white;
     }
 
-.widget {
+#widget-container {
     padding: 50px;
 }
     iframe {
         width: 80%;
-        height: 50%;
+        height: 80%;
     }
