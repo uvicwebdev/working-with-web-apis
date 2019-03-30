@@ -1,3 +1,6 @@
+<img src="./img/working-with-web-apis-workshop-banner.png" height=430px width=800px/>
+<sub>Workshop banner by Palak Verma</sub>
+
 ## Overview :airplane:
 This is the source code for a workshop hosted by the [UVic Web Development Club](https://www.facebook.com/UVicWebDev/), originally prepared by Juan Carlos Gallegos (@okjuan).
 
@@ -15,7 +18,6 @@ Your starting point:
 
 :bulb: **Your task:** :bulb:
 * Make an HTTP GET request to the [Spotify Web API](https://developer.spotify.com/documentation/web-api/) to get the Spotify URI for the song entered by the user
-
 
 ## Acknowledgements :pray:
 While putting this workshop together, I used a bunch of online resources including:
