@@ -22,7 +22,7 @@
 * If you've *ever* programmed, you've used an API
 	* e.g. in C, a `.h` file defines an API
 	* e.g. in Java, an `interface` defines an API
-	* e.g. in JavaScript, the `Document` API lets you manipulate the DOM tree
+	* e.g. in JavaScript, the `Document` API lets you find DOM tree elements
 	* e.g. in Python, ... ahh, you get the point.
 
 ---
