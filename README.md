@@ -19,6 +19,15 @@ Your starting point:
 :bulb: **Your task:** :bulb:
 * Make an HTTP GET request to the [Spotify Web API](https://developer.spotify.com/documentation/web-api/) to get the Spotify URI for the song entered by the user
 
+### Part :two:
+Your starting point:
+* A minimal web client containing a Spotify widget and a Dialogflow chat agent widget.
+    * The agent recognizes two types of messages: greetings and questions about an artist's top song. Unfortunately, it's music knowledge is quite limited -- we fix that in parts 3 and 4.
+
+:bulb: **Your task:** :bulb:
+* Instead of using Dialogflow widget, call the Dialogflow API yourself.
+    * See the README in `part2/` for more info.
+
 ## Acknowledgements :pray:
 While putting this workshop together, I used a bunch of online resources including:
 * [W3 Schools](https://www.w3schools.com/)

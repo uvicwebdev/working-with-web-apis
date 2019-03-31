@@ -1,0 +1,17 @@
+body {
+    background-color: black;
+}
+
+.input {
+    padding: 50px;
+    text-align: center;
+}
+
+#widget-container {
+    padding: 50px;
+}
+
+iframe {
+    width: 80%;
+    height: 80%;
+}
