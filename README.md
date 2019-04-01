@@ -10,39 +10,38 @@ At a high-level, our app is composed of a Python server and a JS/HTML/CSS client
 * Part 3: We create our own Dialogflow agent.
 * Part 4: We configure our new Dialogflow agent to talk to our own Python server to retrieve info for responding to the user.
 
+Each part has its own folder and own README file containing details on how to complete the given exercise.
+
 ### Part :one:
 Your starting point:
 * A minimal web client containing a Spotify widget and a minimal Python server.
-    * The given server is meant to run (locally) and serves a *Spotify bearer token*
+    * The given server is meant to run (locally) and serves a [Spotify bearer token](https://developer.spotify.com/documentation/general/guides/authorization-guide/#client-credentials-flow)
     * The client fetches the bearer token from the server, which it needs to make requests to the Spotify Web API
 
 :bulb: **Your task:** :bulb:
-* Make an HTTP GET request to the [Spotify Web API](https://developer.spotify.com/documentation/web-api/) to get the Spotify URI for the song entered by the user
+* From the webclient, make an HTTP GET request to the [Spotify Web API](https://developer.spotify.com/documentation/web-api/) to get the Spotify URI based on the query entered by the user.
 
 ### Part :two:
 Your starting point:
 * A minimal web client containing a Spotify widget and a Dialogflow chat agent widget.
-    * The agent recognizes two types of messages: greetings and questions about an artist's top song. Unfortunately, it's music knowledge is quite limited -- we fix that in parts 3 and 4.
+    * The agent recognizes two types of messages: greetings and questions about an artist's top song. Unfortunately, it's music knowledge is quite limited -- we fix that in part 4.
 
 :bulb: **Your task:** :bulb:
-* Instead of using Dialogflow widget, call the Dialogflow API yourself.
-    * See the README in `part2/` for more info.
+* Replace the Dialogflow widget with a simple input box and call the Dialogflow API yourself.
 
 ### Part :three:
 :bulb: **Your task:** :bulb:
 * Create your own Dialogflow agent.
-* Adapt your solution from part 2 to talk to your own agent.
+* Adapt your solution from part 2 to talk to your new agent, instead of the provided agent.
 
 ### Part :four:
 Your starting point:
 * We use our client code from part 3, but we add the Python server back in.
-    * The server is similar to the one in part1, but has a new endpoint to talk to our Dialogflow agent from part3.
+    * The server is similar to the one in part1, but is meant to talk to our Dialogflow agent from part3.
 
 :bulb: **Your task:** :bulb:
-* Following the give example, create a new endpoint in our Python server to answer our Dialogflow agent's question about an artist's top songs.
+* Create a new endpoint in our Python server to answer our Dialogflow agent's question about an artist's top songs.
     * We use a minimal Spotify client on the server-side to get information about artists.
-
-
 
 ## Acknowledgements :pray:
 While putting this workshop together, I used a bunch of online resources including:
