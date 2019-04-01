@@ -1,0 +1,32 @@
+<html>
+<head>
+  <title>Spotify Web Player</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+  <!-- Spectre (styling framework) -->
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-exp.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/spectre.css/dist/spectre-icons.min.css">
+  <!-- Our own css -->
+  <link rel="stylesheet" type="text/css" href="style.css" />
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="dialogflow_client.js"></script>
+
+</head>
+<body>
+  <div class="columns col-gapless">
+    <div class="column col-6">
+      <div class="input">
+        <h3>Talk to me, fellow human!</h3>
+        <input id="song-input" type="text">
+      </div>
+    </div>
+    <div class="column col-6">
+      <div id="widget-container">
+        <iframe id="spotify-widget" src='https://embed.spotify.com/?uri=spotify:track:24lMtPOCzP5g4hrg3NklLa' frameborder='0' allowtransparency='true'></iframe>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
