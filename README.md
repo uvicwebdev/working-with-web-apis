@@ -35,6 +35,7 @@ While putting this workshop together, I used a bunch of online resources includi
 * [Stack Overflow](https://stackoverflow.com/)
 * [Dialogflow Docs](https://dialogflow.com/docs/)
 * [Spotify Developer Docs](https://developer.spotify.com/documentation/)
+* [Flask Assistant Docs](https://flask-assistant.readthedocs.io/en/latest/)
 
 And specific tutorials including:
 * [Dialogflow V1 API tutorial by Patrick Catanzariti](https://www.sitepoint.com/how-to-build-your-own-ai-assistant-using-api-ai/)
