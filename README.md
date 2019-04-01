@@ -6,9 +6,9 @@ This is the source code for a workshop hosted by the [UVic Web Development Club]
 
 At a high-level, our app is composed of a Python server and a JS/HTML/CSS client. The workshop is divided into several parts that build on each other incrementally; throughout, we make use the Spotify and Dialogflow APIs to develop our app's functionality.
 * Part 1: We search Spotify via an API call to find music based on user input.
-* Part 2: We query a Dialogflow agent via an API call for processing a user's natural language input.
-* Part 3: We configure our Dialogflow agent to make a request to our own Python server for additional information.
-* Part 4: We create a new endpoint on our Python server to serve our Dialogflow's agent request.
+* Part 2: We query an existing Dialogflow agent via an API call for processing a user's natural language input.
+* Part 3: We create our own Dialogflow agent.
+* Part 4: We configure our new Dialogflow agent to talk to our own Python server to retrieve info for responding to the user.
 
 ### Part :one:
 Your starting point:
@@ -27,6 +27,22 @@ Your starting point:
 :bulb: **Your task:** :bulb:
 * Instead of using Dialogflow widget, call the Dialogflow API yourself.
     * See the README in `part2/` for more info.
+
+### Part :three:
+:bulb: **Your task:** :bulb:
+* Create your own Dialogflow agent.
+* Adapt your solution from part 2 to talk to your own agent.
+
+### Part :four:
+Your starting point:
+* We use our client code from part 3, but we add the Python server back in.
+    * The server is similar to the one in part1, but has a new endpoint to talk to our Dialogflow agent from part3.
+
+:bulb: **Your task:** :bulb:
+* Following the give example, create a new endpoint in our Python server to answer our Dialogflow agent's question about an artist's top songs.
+    * We use a minimal Spotify client on the server-side to get information about artists.
+
+
 
 ## Acknowledgements :pray:
 While putting this workshop together, I used a bunch of online resources including:
