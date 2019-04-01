@@ -12,7 +12,9 @@ At a high-level, our app is composed of a Python server and a JS/HTML/CSS client
 
 Each part has its own folder and own README file containing details on how to complete the given exercise.
 
-### Part :one:
+---
+
+### Part 1
 Your starting point:
 * A minimal web client containing a Spotify widget and a minimal Python server.
     * The given server is meant to run (locally) and serves a [Spotify bearer token](https://developer.spotify.com/documentation/general/guides/authorization-guide/#client-credentials-flow)
@@ -21,7 +23,9 @@ Your starting point:
 :bulb: **Your task:** :bulb:
 * From the webclient, make an HTTP GET request to the [Spotify Web API](https://developer.spotify.com/documentation/web-api/) to get the Spotify URI based on the query entered by the user.
 
-### Part :two:
+---
+
+### Part 2
 Your starting point:
 * A minimal web client containing a Spotify widget and a Dialogflow chat agent widget.
     * The agent recognizes two types of messages: greetings and questions about an artist's top song. Unfortunately, it's music knowledge is quite limited -- we fix that in part 4.
@@ -29,12 +33,16 @@ Your starting point:
 :bulb: **Your task:** :bulb:
 * Replace the Dialogflow widget with a simple input box and call the Dialogflow API yourself.
 
-### Part :three:
+---
+
+### Part 3
 :bulb: **Your task:** :bulb:
 * Create your own Dialogflow agent.
 * Adapt your solution from part 2 to talk to your new agent, instead of the provided agent.
 
-### Part :four:
+---
+
+### Part 4
 Your starting point:
 * We use our client code from part 3, but we add the Python server back in.
     * The server is similar to the one in part1, but is meant to talk to our Dialogflow agent from part3.
