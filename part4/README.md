@@ -1,3 +1,5 @@
+<img src="../img/part 2 solved.png" height=430px width=800px/>
+
 ### Overview
 In this section, we start with the web client from part3 (adapted from part2) and a Python server like the one from part1, but with a new endpoint. The new endpoint uses Flask Assisant to serve a webhook request made by the Dialogflow agent to get a greeting. The main goal of this section is to create a similar endpoint for answering a different request from the same Dialogflow agent: to get an artist's top song.
 

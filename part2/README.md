@@ -1,3 +1,5 @@
+<img src="../img/part 2.png" height=430px width=800px/>
+
 ### Context
 **NOTE:** we don't have our Python server in this section. Instead,
 we're focusing on the Dialogflow and Spotify APIs.
