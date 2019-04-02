@@ -1,4 +1,6 @@
-<img src="../img/part 1 solved.png" height=430px width=800px/>
+<div style="text-align: center">
+    <img src="../img/part 1 solved.png" height=430px width=800px/>
+</div>
 
 ### Prerequisites
 [Create a Spotify developer account](https://developer.spotify.com/dashboard/) (this is easy):

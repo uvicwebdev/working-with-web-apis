@@ -1,4 +1,6 @@
-<img src="../img/part 2.png" height=430px width=800px/>
+<div style="text-align: center" >
+    <img src="../img/part 2.png" height=430px width=800px/>
+</div>
 
 ### Context
 **NOTE:** we don't have our Python server in this section. Instead,
