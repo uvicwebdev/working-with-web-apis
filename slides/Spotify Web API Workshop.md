@@ -39,12 +39,12 @@
 * APIs available over the network (commonly HTTP)
 * Accessible from around the world!
 <div style="text-align: right">
-  <img style="padding: 30px; display: inline-block;" width=200 height=200 src="/Users/juan/SYNERGY.jpg" />
-  <img style="padding: 30px; display: inline-block;" width=200 height=200 src="/Users/juan/SYNERGY.jpg" />
-  <img style="padding: 30px; display: inline-block;" width=200 height=200 src="/Users/juan/SYNERGY.jpg" />
-  <img style="padding: 30px; display: inline-block;" width=200 height=200 src="/Users/juan/SYNERGY.jpg" />
-  <img style="padding: 30px; display: inline-block;" width=200 height=200 src="/Users/juan/SYNERGY.jpg" />
-	<img style="padding: 30px; display: inline-block;" width=200 height=200 src="/Users/juan/SYNERGY.jpg" />
+  <img style="padding: 30px; display: inline-block;" width=200 height=200 src="../img/SYNERGY.jpg" />
+  <img style="padding: 30px; display: inline-block;" width=200 height=200 src="../img/SYNERGY.jpg" />
+  <img style="padding: 30px; display: inline-block;" width=200 height=200 src="../img/SYNERGY.jpg" />
+  <img style="padding: 30px; display: inline-block;" width=200 height=200 src="../img/SYNERGY.jpg" />
+  <img style="padding: 30px; display: inline-block;" width=200 height=200 src="../img/SYNERGY.jpg" />
+	<img style="padding: 30px; display: inline-block;" width=200 height=200 src="../img/SYNERGY.jpg" />
 </div>
 
 ---
