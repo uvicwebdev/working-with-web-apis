@@ -4,7 +4,7 @@ chardet==3.0.4
 Click==7.0
 Flask==1.0.2
 Flask-Assistant==0.3.91
-Flask-Cors==3.0.7
+Flask-Cors==3.0.9
 idna==2.8
 itsdangerous==1.1.0
 Jinja2==2.11.3
